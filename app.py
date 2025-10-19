@@ -99,7 +99,9 @@ if len(cached_df) > 0:
         "SelectionSort",
         "MergeSort",
         "QuickSort",
-        "CountSort"
+        "CountSort",
+        "RadixSort",
+        "BucketSort"
     ]
     selected_algo = st.sidebar.selectbox("Sort algorithm:", sort_algorithms)
     reverse_sort = st.sidebar.checkbox("Reverse sort order", value=False)
@@ -217,6 +219,8 @@ with col2:
         st.info("No data scraped yet. Click START to begin scraping books from OpenLibrary!")
         st.info(f"Max pages to scrape: {MAX_PAGES}")
 
+st.divider()
+st.caption("**Developed by:** Hussain Shahbaz (2024-CS-04) | DSA Project 1")
 
 # Auto-refresh if scraping is active
 if st.session_state.is_scraping and state.status.value == 'running':

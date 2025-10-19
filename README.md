@@ -17,13 +17,15 @@ A comprehensive web scraping and data analysis application that collects book me
 - **Multi-Column Search**: Search across multiple columns simultaneously with AND/OR operators
 - **Advanced Filtering**: Case-insensitive string matching across selected columns
 - **Multi-Column Sorting**: Sort by multiple columns with custom DSA algorithms
-- **Sort Algorithm Selection**: Choose from 6 implementations:
+- **Sort Algorithm Selection**: Choose from 8 implementations:
   - BubbleSort
   - InsertionSort
   - SelectionSort
   - MergeSort
   - QuickSort
   - CountSort
+  - RadixSort
+  - BucketSort
 - **Performance Timing**: Display sorting execution time with millisecond precision
 - **Reverse Sort**: Toggle descending order for any sort operation
 - **Data Export**: Generate and download filtered/sorted results as CSV
@@ -181,8 +183,12 @@ This project is part of the Data Structures and Algorithms course curriculum.
 
 ## Author
 
-Created as a DSA learning project implementing web scraping, state management, and sorting algorithms.
+Created as the first Data Structures and Algorithms project implementing web scraping, state management, and sorting algorithms.
 
 ---
 
-**Last Updated**: October 19, 2025
+**Developed by:** Hussain Shahbaz (2024-CS-04)  
+**Course:** Data Structures and Algorithms  
+**Institution:** Computer Science Department  
+**Date:** October 2025  
+**Project:** DSA Project 1 - Book Scraper Dashboard

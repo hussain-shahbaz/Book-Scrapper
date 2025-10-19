@@ -22,6 +22,18 @@ def applySortingAlgorithm(colValues, algo, selectedAlgo):
                 return algo.CountSort(numericValues)
             except:
                 return None
+        elif selectedAlgo == "RadixSort":
+            try:
+                numericValues = [int(float(v)) for v in colValues]
+                return algo.RadixSort(numericValues)
+            except:
+                return None
+        elif selectedAlgo == "BucketSort":
+            try:
+                numericValues = [float(v) for v in colValues]
+                return algo.BucketSort(numericValues)
+            except:
+                return None
     except Exception as e:
         return None
 
