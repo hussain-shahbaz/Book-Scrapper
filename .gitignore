@@ -1,3 +1,37 @@
-lab4
+lab4/
 */__pycache__/
-*/*.csv
+*.pyc
+.Python
+
+# Keep data directory but ignore large CSV exports
+data/BooksScrapped.csv
+data/*.csv.bak
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
+*.streamlit
+
+# Cache
+.cache/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+
+# Logs
+*.log
+logs/
