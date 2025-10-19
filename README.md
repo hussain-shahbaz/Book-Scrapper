@@ -189,6 +189,6 @@ Created as the first Data Structures and Algorithms project implementing web scr
 
 **Developed by:** Hussain Shahbaz (2024-CS-04)  
 **Course:** Data Structures and Algorithms  
-**Institution:** Computer Science Department  
+**Institution:** UET, CS Department
 **Date:** October 2025  
 **Project:** DSA Project 1 - Book Scraper Dashboard
